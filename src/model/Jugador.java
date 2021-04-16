@@ -38,7 +38,7 @@ public class Jugador {
 		
 		//derecha
 		case(1):
-			if( map[matY][matX+1] == 0) {
+			if( map[matY][matX+1] == 0||map[matY][matX+1]==2) {
 				posX+=18;
 				matX+=1;
 				System.out.println(matY);
@@ -49,7 +49,7 @@ public class Jugador {
 			
 		//arriba
 		case(2):
-			if( map[matY-1][matX] == 0) {
+			if( map[matY-1][matX] == 0|| map[matY-1][matX]==2) {
 				posY-=18;
 				matY-=1;
 				System.out.println(matY);
@@ -59,7 +59,7 @@ public class Jugador {
 				
 		//abajo
 		case(-2):
-			if( map[matY+1][matX] == 0) {
+			if( map[matY+1][matX] == 0 ||  map[matY+1][matX]==2) {
 				posY+=18;
 				matY+=1;
 			}
@@ -67,7 +67,7 @@ public class Jugador {
 				
 		//izquierda
 		case(-1):			
-			if( map[matY][matX-1] == 0) {
+			if( map[matY][matX-1] == 0 || map[matY][matX-1] == 2) {
 				posX-=18;
 				matX-=1;
 			}	

@@ -125,6 +125,7 @@ public class Main extends PApplet implements OnListener{
 		if(screen==4) {
 			image(bg, 0, 0);
 			textSize(24);
+			fill(255);
 			text(winner, 550,450);
 		}
 		
