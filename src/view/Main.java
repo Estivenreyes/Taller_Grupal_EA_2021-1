@@ -2,6 +2,7 @@ package view;
 
 import java.util.ArrayList;
 
+
 import com.google.gson.Gson;
 
 import communicaton.Coordenada;
