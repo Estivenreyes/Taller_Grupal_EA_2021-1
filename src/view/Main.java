@@ -128,6 +128,7 @@ public class Main extends PApplet implements OnListener{
 			textSize(24);
 			fill(255);
 			text(winner, 550,450);
+			System.out.println(winner);
 		}
 		
 	}
