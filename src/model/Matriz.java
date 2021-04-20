@@ -77,12 +77,12 @@ public class Matriz {
 			
 				switch (matrix[j][i]) {
 				case 0:
-					app.fill(255);
+					app.fill(112,178,196);
 					app.rect(posX+(i*ancho), posY+(j*ancho), ancho, ancho);
 				break;
 				
 				case 1:
-					app.fill(255,0,0);
+					app.fill(0,0,10);
 					app.rect(posX+(i*ancho), posY+(j*ancho), ancho, ancho);
 				break;
 				case 2:
